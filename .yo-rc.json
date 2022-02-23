@@ -1,0 +1,49 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.qshop.app",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "monolith",
+    "baseName": "qshop",
+    "packageName": "com.qshop.app",
+    "packageFolder": "com/qshop/app",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "jwtSecretKey": "Y2MzNTIzNmUzOTZjM2ExY2RjOGY0NDcwNjg2MWVjMjA4ODg1YzMxZTViNjZiZmY3ZjAzMWMzYjQ1NzJiY2Y4MDk0ZDE4YThmMDEyZGY3N2U5YWVmNTg4NTc3NTZjZTI2N2RlOWNkYmI1YjBiMzE0NjRlYzFhNmYwMjdhYmM3ZDg=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1645587359132,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-quarkus",
+        "version": "1.1.1"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": ["es", "en"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-quarkus",
+        "version": "1.1.1"
+      }
+    ]
+  }
+}
